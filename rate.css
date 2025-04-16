@@ -1,4 +1,40 @@
 
+@media (max-width: 768px) {
+  .some-class {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
 
     background:#6c6b6b;
@@ -136,17 +172,33 @@ ul {
  
 .navbar {
  
-    
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
     display: flex;
     background-color: white;
     align-items: center;
-    justify-content: center;
+    
     gap: 10px;
     margin-left:900px ;
     text-transform: capitalize;
     
 
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+
 .c {
   margin-left: 50px;
 }
